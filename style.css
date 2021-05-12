@@ -92,9 +92,9 @@ p{
     letter-spacing: 5px;
 }
 .img-footer{
-    width: 700px;
-    height: 700px;
-    background-size: contain;
+    height: 50vh;
+    background: linear-gradient(black 5%, transparent, black 90%),url(./media/nasa-1lfI7wkGWZ4-unsplash.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
    
 }
