@@ -1,0 +1,102 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color:#000
+}
+h1, h2, h3, .h1, .h2, .h3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*variable=box->contenido*/
+:root{
+    --main-color:#2871cc;
+    --accent-color:#003f9a;
+}
+.text-main{
+    color: var(--main-color);
+}
+.text-accent{
+    color: var(--accent-color);
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-accent{
+    background-color: var(--accent-color);
+}
+.borderNav{
+    background-color: transparent;
+    border-bottom: 2px solid white;
+
+}
+.bg-head{
+    background-image:linear-gradient(black 10%, transparent, black 90%), url(./media/nasa.jpg);
+    background-position: center;
+    min-height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.card-text{
+    text-transform: capitalize;
+    border-bottom:  3px solid var(--accent-color);
+    margin-bottom: 10px;
+    font-size: 20px; 
+}
+.num{
+    font-size: 20px;
+    
+}
+.card2{
+    font-size: 10px;
+}
+.h2{
+    color: var(--accent-color);
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    
+}
+.text-main{
+    font-size: 12px 
+
+}
+
+.bg-main{
+    background-image: url(./media/serge-b-mEITsGvVZZs-unsplash.jpg);
+}
+.img-cohete{
+    height: 450px;
+   
+}
+p{
+    font-size: 12px;
+}
+.btn{
+   
+    background:
+    linear-gradient(to right, var(--main-color) 2px, transparent 2px) 0 0,
+    linear-gradient(to right, var(--main-color) 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, var(--main-color) 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, var(--main-color) 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, var(--main-color) 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, var(--main-color) 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, var(--main-color) 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, var(--main-color) 2px, transparent 2px) 100% 100%;
+    background-repeat:no-repeat;
+    background-size: 10px 10px;
+   
+    
+
+}
+.btn:hover{
+    letter-spacing: 5px;
+}
+.img-footer{
+    width: 700px;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+
